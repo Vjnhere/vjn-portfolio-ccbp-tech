@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-about {
+    background-color: #e9c5f7;
+    height: 110vh;
+    width: 100vw;
+}
+
+.about-title-word {
+    color: #821c16;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.aboutme {
+    color: #821c16;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.about-desc {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.about-button {
+    text-align: center;
+    color: #821c16;
+    border-style: solid;
+    border-color: #821c16;
+    font-weight: bold;
+    border-width: 2px;
+}
+
+.about-button-center {
+    text-align: center;
+}
+
+.hr-length {
+    margin-left: 70px;
+    margin-right: 70px;
+    border-width: 2px;
+    margin-top: 30px;
+}
+
+.about-skill-word {
+    color: #821c16;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-skills {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.about-Chatbot-one {
+    padding: 10px;
+    border-color: #821c16;
+    color: #821c16;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-color: #e9c5f7;
+    margin-bottom: 15px;
+}
+
+.about-Chatbot-two {
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #821c16;
+    color: #821c16;
+    background-color: #e9c5f7;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+}
+
+.about-Chatbot-three {
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #821c16;
+    color: #821c16;
+    background-color: #e9c5f7;
+    margin-bottom: 15px;
+}
+
+.course-title-para {
+    color: #114f20;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.port-background {
+    background-color: #c3dee7;
+    height: 250vh;
+    width: 100vw;
+}
+
+.port-card {
+    background-color: #c3dee7;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.port-card-title {
+    color: #000000;
+}
+
+.port-card-collection {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.port-card-collection-second {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.port-button-color {
+    color: #377b3e;
+    border-style: solid;
+    border-color: #377b3e;
+}
+
+.port-title {
+    color: #377b3e;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.port-title-word {
+    color: #377b3e;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.course-background {
+    background-color: #ffe57a;
+    height: 100vh;
+    width: 100vw;
+}
+
+.course-title {
+    color: #114f20;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.course-title-word {
+    color: #114f20;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.course-card-text {
+    font-weight: bold;
+}
+
+.course-card-box {
+    border-radius: 5px;
+    border-color: #ffe57a;
+}
+
+.course-card-collection {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.course-card-collection-second {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.participation-title-word {
+    color: #ff8b94;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.participation-background {
+    background-color: #dcedc1;
+    height: 225vh;
+    width: 100vw;
+}
+
+.Participation-title {
+    color: #ff8b94;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.participation-card-box {
+    border-radius: 5px;
+    border-color: #dcedc1;
+}
+
+.Participation-card-collection-second {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.background-home {
+    background-color: #cadcb2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-align {
+    padding-top: 35px;
+}
+
+.text {
+    color: #000000;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.home-title {
+    color: #000000;
+    margin-left: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-title-word {
+    color: #ff573a;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title-card {
+    margin-right: 90px;
+    text-align: right;
+    padding-top: 25px;
+}
+
+.home-hello {
+    color: #ff573a;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.colour {
+    color: #ff573a;
+}
+
+.home-name {
+    color: #ff573a;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.name-card {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.home-desc {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.home-email {
+    color: #ff573a;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.home-email-id {
+    color: #000000;
+    font-weight: bold;
+}
+
+.home-mail-card {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.home-follow-card {
+    margin-left: 90px;
+}
+
+.home-follow-account {
+    color: #000000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.three-word {
+    color: #ff573a;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.home-banner {
+    margin-top: 40px;
+    background-color: #ff573a;
+    height: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.home-banner-title {
+    font-weight: bold;
+    color: #000000;
+    font-size: 23px;
+    margin-top: 7px;
+}
