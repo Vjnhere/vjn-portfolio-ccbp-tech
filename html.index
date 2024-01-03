@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="background-home">
+            <div class="title-card d-flex flex-colomn justify-content-between">
+                <div>
+                    <h class="text">V.</h>
+                </div>
+                <div class="text-align">
+                    <h class="home-title-word" onclick="display('sectionhome')">Home</h>
+                    <h class="home-title" onclick="display('sectionabout')">About</h>
+                    <h class="home-title" onclick="display('sectioncourse')">Course</h>
+                    <h class="home-title" onclick="display('sectionportfolio')">Portfolio</h>
+                    <h class="home-title" onclick="display('sectionparticipation')">Participation</h>
+                    <a href="https://github.com/Vjnhere" target="_blank">
+                        <h class="home-title">Github</h>
+                    </a>
+                    <h class="home-title" onclick="display('sectioninternship')">Internship</h>
+                    <h class="home-title">Contact</h>
+                </div>
+            </div>
+            <div class="name-card">
+                <h1 class="home-hello">Hello, It's Me</h1>
+                <h1 class="home-name">Vijayan</h1>
+                <h1 class="home-desc">a student pursuing Bachelor of Technology in <br>
+                    Electronics & Communication Engineering <br>
+                    in SRM Institute of Science and Technology, Kattankulathur.</h1>
+                <h1 class="three-word"> &nbsp; INNOVATE &nbsp;&nbsp; | &nbsp;&nbsp; CREATE &nbsp;&nbsp; | &nbsp;&nbsp; DEVELOP</h1>
+            </div>
+            <div class="home-banner d-flex flex-coloumn justify-content-between">
+                <p class="home-banner-title">AI/ML</p>
+                <p class="home-banner-title">WEB DEVELOPMENT</p>
+                <p class="home-banner-title">VLSI</p>
+                <p class="home-banner-title">NANOTECHNOLOGY</p>
+                <p class="home-banner-title">IOT</p>
+            </div>
+            <div class="home-mail-card d-flex flex-colomn">
+                <p class="home-email">E-mail : &nbsp;</p>
+                <p class="home-email-id">helloentrepreneurz@gmail.com &nbsp;&nbsp;|&nbsp;&nbsp; vv3041@srmist.edu.in</p>
+            </div>
+            <div class="home-follow-card  d-flex flex-colomn">
+                <p class="home-email">Follow : &nbsp;</p>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin colour" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                    </svg>
+                    <a class="home-follow-account" href="https://www.linkedin.com/in/vijayan-v-5969b1269/">Linkedin</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github colour" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                    <a class="home-follow-account" href="https://github.com/Vjnhere">GitHub</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram colour" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                    <a class="home-follow-account" href="https://www.instagram.com/im_vjn/">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionportfolio">
+        <div class="port-background">
+            <div class="title-card d-flex flex-colomn justify-content-between">
+                <div>
+                    <h class="text">V.</h>
+                </div>
+                <div class="text-align">
+                    <h class="home-title" onclick="display('sectionhome')">Home</h>
+                    <h class="home-title" onclick="display('sectionabout')">About</h>
+                    <h class="home-title" onclick="display('sectioncourse')">Course</h>
+                    <h class="port-title-word" onclick="display('sectionportfolio')">Portfolio</h>
+                    <h class="home-title" onclick="display('sectionparticipation')">Participation</h>
+                    <a href="https://github.com/Vjnhere" target="_blank">
+                        <h class="home-title">Github</h>
+                    </a>
+                    <h class="home-title" onclick="display('sectioninternship')">Internship</h>
+                    <h class="home-title">Contact</h>
+                </div>
+            </div>
+            <div class="name-card">
+                <h1 class="port-title">Portfolio</h1>
+            </div>
+            <div class="port-card-collection d-flex flex-colomn justify-content-center">
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">The evolution of engineering across various historical eras, aiming to provide insights into the development of engineering principles, practices, and innovations.</p>
+                        <a href="https://docs.google.com/document/d/1ImXb0d5yY7U_nAYqKZay9Y4oy2vLKNVE/view?" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card port-card-collection-second" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">An ontology is a set of concepts and categories that are used to represent and organize data in a structured way, so that it can be easily searched, analyzed, and shared.</p>
+                        <a href="https://drive.google.com/file/d/1ijSriwjgj1m6jPxkmQOn8_ZCsUGV2AkZ/view?" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">Engineering is a field that encompasses a wide range of disciplines and combination of technical expertise, analytical skills, creativity, communication skills, and the ability to work.</p>
+                        <a href="https://drive.google.com/file/d/1nYsSWaoV3Sqf6LnMCA5J1S3rcubKcb1O/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+            </div>
+            <div class="port-card-collection d-flex flex-colomn justify-content-center">
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">The knowledge base in engineering is a vast and complex collection of information, concepts, principles, theories, methods that are used to design, analyze, and optimize systems.</p>
+                        <a href="https://drive.google.com/file/d/1YgKGFpSR6hRcVtq7R5wMQ85mqOtPrgOx/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card port-card-collection-second" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">Epistemology of engineering design is the study of how engineers acquire knowledge and understanding about the design of complex systems, products and emphasizes practical knowledge.</p>
+                        <a href="https://drive.google.com/file/d/1J1fSo6IeW8TA4s40mRUwfqovyTBeNDG9/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">STEAM fields are the areas of science, technology, engineering, the arts, and mathematics. Steam is designed to integrate STEM subjects with arts subjects into various education disciplines.</p>
+                        <a href="https://drive.google.com/file/d/193bjepnijJvMo_UNEINuehGfX__A6sNE/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+            </div>
+            <div class="port-card-collection d-flex flex-colomn justify-content-center">
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            </svg> &nbsp;Philosophy</h5>
+                        <p class="card-text port-card-title">The ADDIE model is a systematic approach to designing and developing effective instructional materials and programs. The model starts with analyzing the needs of the learners and the learning objectives.</p>
+                        <a href="https://drive.google.com/file/d/1OrvMl4xxxUcbRITYD6H7S3XbliIbyomi/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card port-card-collection-second" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8" />
+                            </svg> &nbsp;Electromagnetic</h5>
+                        <p class="card-text port-card-title">Delve into Electromagnetic Interference: A MATLAB Assignment </p>
+                        <a href="https://drive.google.com/file/d/1D0CUe4fNmQ2sUwJmF90L9Hg8p5877QqJ/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8" />
+                            </svg> &nbsp;Electromagnetic</h5>
+                        <p class="card-text port-card-title">Unveiling Electromagnetic Interference: A Comprehensive Case Study</p>
+                        <a href="https://drive.google.com/file/d/1qX0VVZuoJ07qNqx-xgakXpQq1OBVQzce/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+            </div>
+            <div class="port-card-collection d-flex flex-colomn justify-content-center">
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16">
+                                <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z" />
+                            </svg> &nbsp;Computer Architecture</h5>
+                        <p class="card-text port-card-title">Project on the design and implementation of a 4x4 array multiplier, a critical component in digital signal processing. The project explores the design factors, advantages, disadvantages, and applications of this advanced multiplier circuit.</p>
+                        <a href="https://github.com/Vjnhere/4x4multiplier" class="btn btn-outline-success port-button-color" target="_blank">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card port-card-collection-second" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16">
+                                <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z" />
+                            </svg> &nbsp;Physics</h5>
+                        <p class="card-text port-card-title">Overload Current cutoff protection circuit project</p>
+                        <a href="https://drive.google.com/drive/folders/15eSiw77-FTXg6PV4ons4gx5VJM2JWqXj?usp=sharing" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+                <div class="card port-card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title port-card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                                <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8" />
+                            </svg> &nbsp;Electromagnetic</h5>
+                        <p class="card-text port-card-title">Unveiling Electromagnetic Interference: A Comprehensive Case Study</p>
+                        <a href="https://drive.google.com/file/d/1qX0VVZuoJ07qNqx-xgakXpQq1OBVQzce/view?usp=drive_link" class="btn btn-outline-success port-button-color">Direct</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncourse" class="course-background">
+        <div class="title-card d-flex flex-colomn justify-content-between">
+            <div>
+                <h class="text">V.</h>
+            </div>
+            <div class="text-align">
+                <h class="home-title" onclick="display('sectionhome')">Home</h>
+                <h class="home-title" onclick="display('sectionabout')">About</h>
+                <h class="course-title-word" onclick="display('sectioncourse')">Course</h>
+                <h class="home-title" onclick="display('sectionportfolio')">Portfolio</h>
+                <h class="home-title" onclick="display('sectionparticipation')">Participation</h>
+                <a href="https://github.com/Vjnhere" target="_blank">
+                    <h class="home-title">Github</h>
+                </a>
+                <h class="home-title" onclick="display('sectioninternship')">Internship</h>
+                <h class="home-title">Contact</h>
+            </div>
+        </div>
+        <div class="name-card">
+            <h1 class="course-title">Course</h1>
+        </div>
+        <div class="course-card-collection d-flex flex-colomn justify-content-center">
+            <div class="card course-card-box" style="width: 18rem;">
+                <a href="https://drive.google.com/drive/folders/1DAnrnUqbl3E8PtI9WV9iwtxsvKD7earI?usp=drive_link">
+                    <img src="https://noticedash.com/wp-content/uploads/2021/09/AICTE-PG-GATE-Scholarship-2020-21.jpeg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">AICTE</p>
+                </div>
+            </div>
+            <div class="course-card-collection-second card course-card-box" style="width: 18rem;">
+                <a href="https://drive.google.com/drive/folders/1QLhyBHCMb2CDw6-jLQl-itLZp5EgvbDB?usp=drive_link">
+                    <img src="https://i.ytimg.com/vi/L96w9XX4U60/maxresdefault.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">NPTEL</p>
+                </div>
+            </div>
+            <div class="card course-card-box" style="width: 18rem;">
+                <a href="https://drive.google.com/file/d/1GkBuB1z1F5UI5Bj4qkVh4hdgim1sbryL/view?usp=sharing">
+                    <img src="https://pbs.twimg.com/ext_tw_video_thumb/1740357766114660352/pu/img/zBmAytokP4rviMzA.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">NXT WAVE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectioninternship" class="course-background">
+        <div class="title-card d-flex flex-colomn justify-content-between">
+            <div>
+                <h class="text">V.</h>
+            </div>
+            <div class="text-align">
+                <h class="home-title" onclick="display('sectionhome')">Home</h>
+                <h class="home-title" onclick="display('sectionabout')">About</h>
+                <h class="home-title" onclick="display('sectioncourse')">Course</h>
+                <h class="home-title" onclick="display('sectionportfolio')">Portfolio</h>
+                <h class="home-title" onclick="display('sectionparticipation')">Participation</h>
+                <a href="https://github.com/Vjnhere" target="_blank">
+                    <h class="home-title">Github</h>
+                </a>
+                <h class="course-title-word">Internship</h>
+                <h class="home-title">Contact</h>
+            </div>
+        </div>
+        <div class="name-card">
+            <h1 class="course-title">Internship</h1>
+        </div>
+        <div class="course-card-collection">
+            <P class="course-title-para">"Skills in progress; seeking internship opportunities to further enhance learning"</P>
+        </div>
+    </div>
+    <div id="sectionparticipation" class="participation-background">
+        <div class="title-card d-flex flex-colomn justify-content-between">
+            <div>
+                <h class="text">V.</h>
+            </div>
+            <div class="text-align">
+                <h class="home-title" onclick="display('sectionhome')">Home</h>
+                <h class="home-title" onclick="display('sectionabout')">About</h>
+                <h class="home-title" onclick="display('sectioncourse')">Course</h>
+                <h class="home-title" onclick="display('sectionportfolio')">Portfolio</h>
+                <h class="participation-title-word" onclick="display('sectionparticipation')">Participation</h>
+                <a href="https://github.com/Vjnhere" target="_blank">
+                    <h class="home-title">Github</h>
+                </a>
+                <h class="home-title" onclick="display('sectioninternship')">Internship</h>
+                <h class="home-title">Contact</h>
+            </div>
+        </div>
+        <div class="name-card">
+            <h1 class="Participation-title">Participation</h1>
+        </div>
+        <div class="course-card-collection d-flex flex-colomn justify-content-center">
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_chatbotcreation-codingadventure-activity-7096020499851313153-bt8s?">
+                    <img src="https://img.freepik.com/free-photo/robot-handshake-human-background-futuristic-digital-age_53876-129770.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">The Generative AI Mega Workshop. Exploring advanced models and algorithms that enable the generation of new, realistic content like images, text, and music.</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_chatbotcreation-codingadventure-activity-7096020499851313153-bt8s?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="Participation-card-collection-second card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_datascience-gratitude-learningfromthebest-activity-7096391083533750272-uoUy?">
+                    <img src="https://img.freepik.com/free-photo/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Explore the world of data science through immersive podcast, empowering with the skills to decipher insights from data and drive impactful decisions.</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_datascience-gratitude-learningfromthebest-activity-7096391083533750272-uoUy?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_dronetrainingjourney-gratefulforopportunities-activity-7108708970525052928-XZ3H?">
+                    <img src="https://img.freepik.com/free-photo/quadcopter-flying-park_231208-10455.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Embark on an exciting journey into the future of aerial innovation with Drone Technology Workshop, and hands-on operation of cutting-edge drone technology</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_dronetrainingjourney-gratefulforopportunities-activity-7108708970525052928-XZ3H?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+        </div>
+        <div class="course-card-collection d-flex flex-colomn justify-content-center">
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_electronicsmastery-lmesacademy-careergrowth-activity-7109517957533208577-heC5?">
+                    <img src="https://img.freepik.com/free-photo/computer-chip-connects-electrical-components-powering-global-communications-industry-generated-by-artificial-intelligence_24877-80915.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">The realm of electronics through Mastery Workshop, designed to elevate understanding and proficiency in circuitry.</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_electronicsmastery-lmesacademy-careergrowth-activity-7109517957533208577-heC5?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="Participation-card-collection-second card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_i-would-like-to-express-my-heartfelt-gratitude-activity-7110315859172057088-mteJ?">
+                    <img src="https://img.freepik.com/free-photo/man-glasses-holds-sphere-front-screen-that-says-future-technology_188544-41101.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Workshop to integrate the power of artificial intelligence into everyday Microsoft tools, unlocking new efficiencies and possibilities.</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_i-would-like-to-express-my-heartfelt-gratitude-activity-7110315859172057088-mteJ?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_careerdevelopment-trinityworkshop-gratitude-activity-7110623205987414016-eh08?">
+                    <img src="https://img.freepik.com/free-photo/man-stands-ledge-front-cityscape_188544-18516.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Career Development workshop, where tailored guidance and practical strategies propel you towards professional aspirations.</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_careerdevelopment-trinityworkshop-gratitude-activity-7110623205987414016-eh08?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+        </div>
+        <div class="course-card-collection d-flex flex-colomn justify-content-center">
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_podcast-techtalk-google-activity-7111602135653371904-RZvW?">
+                    <img src="https://img.freepik.com/free-photo/row-empty-office-chairs-modern-meeting-room_157027-3022.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Podcast equips with essential tools and strategies for crafting impactful resumes, acing interviews</p>
+                    <a href="https://www.linkedin.com/posts/vijayan-v-5969b1269_podcast-techtalk-google-activity-7111602135653371904-RZvW?" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="Participation-card-collection-second card participation-card-box" style="width: 18rem;">
+                <a href="https://drive.google.com/drive/folders/1DaIkEiFkem0Glub6pyjZ0ABaqhUEpBOt?usp=drive_link">
+                    <img src="https://img.freepik.com/free-photo/men-battle-chess-board-teamwork-stands-out-generated-by-ai_188544-20235.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Humanity and fostering understanding through Universal Human Values Workshop, promoting empathy, inclusivity, and respect for diverse perspectives.</p>
+                    <a href="https://drive.google.com/drive/folders/1DaIkEiFkem0Glub6pyjZ0ABaqhUEpBOt?usp=drive_link" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+            <div class="card participation-card-box" style="width: 18rem;">
+                <a href="https://github.com/Vjnhere/4x4multiplier">
+                    <img src="https://img.freepik.com/free-photo/men-working-with-machinery-busy-factory-generated-by-ai_188544-24564.jpg?" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <p class="card-text course-card-text">Unleashing creativity and problem-solving skills in Electronics Hackathon, where innovation meets hands-on circuitry to tackle real-world challenges.</p>
+                    <a href="https://github.com/Vjnhere/4x4multiplier" class="btn btn-outline-secondary">Direct</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionabout">
+        <div class="background-about">
+            <div class="title-card d-flex flex-colomn justify-content-between">
+                <div>
+                    <h class="text">V.</h>
+                </div>
+                <div class="text-align">
+                    <h class="home-title" onclick="display('sectionhome')">Home</h>
+                    <h class="about-title-word" onclick="display('sectionabout')">About</h>
+                    <h class="home-title" onclick="display('sectioncourse')">Course</h>
+                    <h class="home-title" onclick="display('sectionportfolio')">Portfolio</h>
+                    <h class="home-title" onclick="display('sectionparticipation')">Participation</h>
+                    <a href="https://github.com/Vjnhere" target="_blank">
+                        <h class="home-title">Github</h>
+                    </a>
+                    <h class="home-title" onclick="display('sectioninternship')">Internship</h>
+                    <h class="home-title">Contact</h>
+                </div>
+            </div>
+            <div>
+                <h1 class="aboutme">About Me</h1>
+                <p class="about-desc">Passionate Electronic and Communication Engineering student at SRM University with a knack <br>
+                    for Full Stack Development. I've spent 4 months diving into the world of dynamic web applications, <br>
+                    showcasing a passion for tech and problem-solving. Beyond my studies, <br>
+                    I'm driven by curiosity, seeking corporate skills, business insights, and financial acumen. </p>
+                <div class="about-button-center">
+                    <a href="https://drive.google.com/file/d/1hzoJ1GLv9meBPVaRah3miC2cvhARtyWW/view?usp=sharing">
+                        <button class="btn about-button">Open CV</button></a>
+                </div>
+                <hr class="hr-length">
+                <h1 class="about-skill-word">Skills</h1>
+                <p class="about-skills">Team Coordination &nbsp; | &nbsp; Confidence &nbsp; | &nbsp; Curiosity &nbsp;|&nbsp; Professionalism &nbsp;|&nbsp; Leadership &nbsp;|&nbsp; Creative Thinking</p>
+                <p class="about-skills">AI Developer &nbsp; | &nbsp; PCB Design &nbsp; | &nbsp; HTML &nbsp;|&nbsp; CSS &nbsp;|&nbsp; Bootstrap &nbsp;|&nbsp; Python &nbsp;|&nbsp;TinkerCAD Design </p>
+                <hr class="hr-length">
+                <div class="d-flex flex-colomn justify-content-center">
+                    <a href="https://vjnhere.ccbp.tech/"><button class="about-Chatbot-one">&nbsp;&nbsp;My Own AI ChatBot&nbsp;&nbsp;</button></a>
+                    <a href="https://drive.google.com/drive/folders/18yd7l-aM3tKrf02htFrATNdNRNvpdOMV?usp=sharing"><button class="about-Chatbot-two">&nbsp;&nbsp;Certificates&nbsp;&nbsp;</button></a>
+                </div>
+                <div class="d-flex flex-colomn justify-content-center">
+                    <a href="https://drive.google.com/drive/folders/15eSiw77-FTXg6PV4ons4gx5VJM2JWqXj?usp=drive_link"><button class="about-Chatbot-one">&nbsp;&nbsp; 1st Semester project&nbsp;&nbsp;</button></a>
+                    <a href="https://docs.google.com/document/d/1Wy7fXSLph418HsWxLo-Km23GaCg8v0LI/view?"><button class="about-Chatbot-two">&nbsp;&nbsp;2nd Semester projects&nbsp;&nbsp;</button></a>
+                    <a href="https://github.com/Vjnhere/4x4multiplier"><button class="about-Chatbot-three">&nbsp;&nbsp;3rd Semester project&nbsp;&nbsp;</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
