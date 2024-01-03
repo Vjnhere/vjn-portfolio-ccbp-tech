@@ -2,6 +2,8 @@
 
 Welcome to my personal website repository! This platform showcases the website I developed using HTML, CSS, and Bootstrap. It's designed with multiple sections to provide comprehensive insights into my academic journey, skills, projects, and more.
 
+[Website Link](https://vjnportfolio.ccbp.tech/)
+
 ## Platform & Compatibility
 The website was meticulously crafted on the Nxt Wave Academy platform, tailored for desktop viewing. For the best experience, please ensure viewing the site in desktop mode.
 
